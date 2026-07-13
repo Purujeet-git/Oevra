@@ -9,7 +9,7 @@ export default function LavaLampScene() {
   
   // Define the start and end background colors
   const bgStart = useMemo(() => new THREE.Color("#708C5A"), []); // Oevra dark green
-  const bgEnd = useMemo(() => new THREE.Color("#C1B4D1"), []);   // Sleek matte black
+  const bgEnd = useMemo(() => new THREE.Color("#EDD8D3"), []);   // Sleek matte black
   const currentBg = useMemo(() => new THREE.Color(), []);
 
   useFrame(() => {
